@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anang Suryana</title>
+    <link>http://localhost:1313/id/</link>
+    <description>Recent content on Anang Suryana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-ID</language>
+    <atom:link href="http://localhost:1313/id/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/id/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/id/contact/</guid>
+      <description>Jangan ragu untuk mengirim pesan — saya selalu senang berdiskusi tentang Golang, arsitektur sistem, dan pengembangan aplikasi berkelanjutan.</description>
+    </item>
+    <item>
+      <title>Keahlian Teknis &amp; Profesional</title>
+      <link>http://localhost:1313/id/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/id/skills/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pengalaman</title>
+      <link>http://localhost:1313/id/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/id/experience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teknologi Populer</title>
+      <link>http://localhost:1313/id/technical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/id/technical/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tentang Saya</title>
+      <link>http://localhost:1313/id/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/id/about/</guid>
+      <description>Saya adalah seorang Software Engineer dengan pengalaman lebih dari 14 tahun dalam mengembangkan solusi perangkat lunak lintas sektor — mulai dari ERP, marketplace, sistem reservasi, hingga AI berbasis mikrokontroler. Keahlian saya terletak pada perancangan arsitektur backend yang efisien, integrasi sistem berskala besar, dan otomatisasi berbasis cloud menggunakan Golang, ReactJS, Docker, dan Kubernetes.&#xA;Berawal dari dunia instrumentasi fisika dan pemrograman embedded, saya belajar memahami bagaimana sistem bekerja dari tingkat hardware hingga aplikasi enterprise.</description>
+    </item>
+  </channel>
+</rss>

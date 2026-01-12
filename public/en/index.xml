@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ens on Anang Suryana</title>
+    <link>http://localhost:1313/en/</link>
+    <description>Recent content in Ens on Anang Suryana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/en/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/contact/</guid>
+      <description>Feel free to drop a message — I’m always excited to discuss Golang, backend architecture, and sustainable software engineering.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/about/</guid>
+      <description>I’m a Software Engineer with over a decade of experience developing scalable systems across ERP, marketplace, and AI domains. My expertise lies in backend architecture, system integration, and cloud automation using Golang, ReactJS, Docker, and Kubernetes.&#xA;Starting from instrumentation and embedded systems, I learned how to build reliable solutions from hardware-level control to enterprise-scale platforms. With an analytical and structured mindset, I focus on turning complexity into clarity through clean, maintainable, and efficient software systems.</description>
+    </item>
+    <item>
+      <title>Experience</title>
+      <link>http://localhost:1313/en/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/experience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Skills</title>
+      <link>http://localhost:1313/en/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/skills/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>http://localhost:1313/en/technical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/technical/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

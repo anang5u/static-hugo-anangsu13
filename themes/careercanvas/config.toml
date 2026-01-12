@@ -1,0 +1,89 @@
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.147.1"
+    max = "" 
+
+[params.pexels]
+apiKey = ""
+
+[params.pexels.queries]
+homepage = "landscape"
+about = "office"
+contact = "workspace"
+
+theme = "careercanvas"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[params]
+  name = "Anang Suryana"
+  tagline = "Engineer. Coder. Problem Solver. Tech Enthusiast"
+  location = "Your Location"
+  email = "anang.su13@gmail.com"
+  profile_image = "/images/anang_su.png"
+  author = "Anang Suryana"
+  copyright = "© 2025 | Felipe Cordero"
+
+  # Social Media and Contact
+  linkedin_url = "https://www.linkedin.com/in/anangsu13/"
+  linkedin_text = "https://www.linkedin.com/in/anangsu13/"
+  github_url = "https://github.com/anang5u"
+  github_text = "https://github.com/anang5u"
+  whatsapp_url = "https://wa.me/6281312086579"
+  whatsapp_text = "+62 813-1208-6579"
+  hero_location = "Cilengkrang, Bandung - West Java"
+  hero_description = "Rooted in Instrumentation Physics, I build robust and scalable backend systems with Golang — blending technical precision, data efficiency, and innovation in modern cloud architecture."
+
+  # Resume/CV
+  resume_url_en = "/files/your-resume-en.pdf"  # Path to English resume
+  resume_url_fr = "/files/your-resume-fr.pdf"  # Path to French resume (optional)
+  resume_label = "Full Resume"
+
+  # Social Icons
+  [[params.social]]
+    icon = "linkedin-in"
+    url = "https://www.linkedin.com/in/anangsu13"
+
+  [[params.social]]
+    icon = "github"
+    url = "https://github.com/anang5u"
+
+[languages]
+  [languages.id]
+    languageCode = "id-ID"
+    languageName = "Indonesia"
+    contentDir = "content/id"
+    weight = 1
+
+  [languages.en]
+    languageCode = "en-US"
+    languageName = "English"
+    contentDir = "content/en"
+    weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/#about"
+  weight = 3
+
+[[menu.main]]
+  name = "Skills"
+  url = "/#skills"
+  weight = 4
+
+[[menu.main]]
+  name = "Experience"
+  url = "/#experience"
+  weight = 5
+
+[[menu.main]]
+  name = "Tech Stack"
+  url = "/#technical"
+  weight = 6
+
+[[menu.main]]
+  name = "Contact"
+  url = "/#contact"
+  weight = 7

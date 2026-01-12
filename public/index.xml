@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anang Suryana</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Anang Suryana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/en/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/contact/</guid>
+      <description>Feel free to drop a message — I’m always excited to discuss Golang, backend architecture, and sustainable software engineering.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/id/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/id/contact/</guid>
+      <description>Jangan ragu untuk mengirim pesan — saya selalu senang berdiskusi tentang Golang, arsitektur sistem, dan pengembangan aplikasi berkelanjutan.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/about/</guid>
+      <description>I’m a Software Engineer with over a decade of experience developing scalable systems across ERP, marketplace, and AI domains. My expertise lies in backend architecture, system integration, and cloud automation using Golang, ReactJS, Docker, and Kubernetes.&#xA;Starting from instrumentation and embedded systems, I learned how to build reliable solutions from hardware-level control to enterprise-scale platforms. With an analytical and structured mindset, I focus on turning complexity into clarity through clean, maintainable, and efficient software systems.</description>
+    </item>
+    <item>
+      <title>Experience</title>
+      <link>http://localhost:1313/en/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/experience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Keahlian Teknis &amp; Profesional</title>
+      <link>http://localhost:1313/id/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/id/skills/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pengalaman</title>
+      <link>http://localhost:1313/id/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/id/experience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Skills</title>
+      <link>http://localhost:1313/en/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/skills/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech Stack</title>
+      <link>http://localhost:1313/en/technical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/technical/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teknologi Populer</title>
+      <link>http://localhost:1313/id/technical/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/id/technical/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tentang Saya</title>
+      <link>http://localhost:1313/id/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/id/about/</guid>
+      <description>Saya adalah seorang Software Engineer dengan pengalaman lebih dari 14 tahun dalam mengembangkan solusi perangkat lunak lintas sektor — mulai dari ERP, marketplace, sistem reservasi, hingga AI berbasis mikrokontroler. Keahlian saya terletak pada perancangan arsitektur backend yang efisien, integrasi sistem berskala besar, dan otomatisasi berbasis cloud menggunakan Golang, ReactJS, Docker, dan Kubernetes.&#xA;Berawal dari dunia instrumentasi fisika dan pemrograman embedded, saya belajar memahami bagaimana sistem bekerja dari tingkat hardware hingga aplikasi enterprise.</description>
+    </item>
+  </channel>
+</rss>
