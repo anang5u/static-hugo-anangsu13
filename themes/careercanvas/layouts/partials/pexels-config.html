@@ -1,13 +1,3 @@
-{{/* 
-Pexels API Configuration
-This partial provides the API key and queries to the frontend JavaScript.
-
-SECURITY NOTE: 
-- API key is fetched securely at runtime from a serverless function
-- No sensitive data is exposed in the HTML source
-- Queries are safe to expose as they're just search terms
-*/}}
-
 {{/* Set Pexels queries from Hugo config (safe to expose) */}}
 {{ $pexelsQueries := .Site.Params.pexels.queries }}
 {{ if not $pexelsQueries }}
@@ -15,51 +5,45 @@ SECURITY NOTE:
 {{ end }}
 <div id="pexels-config" data-queries="{{ $pexelsQueries | jsonify }}" style="display: none;"></div>
 
+
 <script>
-  // Initialize configuration - API key will be fetched at runtime
-  window.PEXELS_API_KEY = null; // Will be set by fetchConfig()
-  
-  // Load queries from data attribute (configured in config.toml)
-  const configElement = document.getElementById('pexels-config');
-  if (configElement) {
-    try {
-      window.PEXELS_QUERIES = JSON.parse(configElement.getAttribute('data-queries'));
-    } catch (error) {
-      console.error('Error parsing Pexels queries from config.toml:', error);
-      // No fallback - queries must be configured in config.toml
-      window.PEXELS_QUERIES = [];
-    }
-  } else {
-    console.error('Pexels config element not found');
-    window.PEXELS_QUERIES = [];
-  }
+  // List of background images (edit freely)
+  const images = [
+    // 🤖 Tema AI / Machine Learning
+    "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+    "https://images.unsplash.com/photo-1620712943543-bcc4688e7485",
+    "https://images.unsplash.com/photo-1676299081847-824916de030a",
+    "https://images.unsplash.com/photo-1635070041078-e363dbe005cb",
 
-  // Function to fetch secure configuration at runtime
-  async function fetchConfig() {
-    try {
-      // Use local development server if running on localhost
-      const apiUrl = window.location.hostname === 'localhost' 
-        ? 'http://localhost:1313/api/config' 
-        : '/api/config';
-        
-      const response = await fetch(apiUrl);
-      if (response.ok) {
-        const config = await response.json();
-        window.PEXELS_API_KEY = config.pexelsApiKey;
-        window.FORMSPREE_ENDPOINT = config.formspreeEndpoint;
-        console.log('Configuration loaded securely');
-      } else {
-        console.warn('Failed to load configuration, using fallback');
-      }
-    } catch (error) {
-      console.warn('Error loading configuration:', error);
-    }
-  }
+    // 💻 Tema Tech / Programming / Developer
+    "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
+    "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+    "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+    "https://images.unsplash.com/photo-1526378722484-bd91ca387e72",
+    "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
 
-  // Load configuration when DOM is ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', fetchConfig);
-  } else {
-    fetchConfig();
-  }
+    //🐹 Golang / Backend / Cloud / Infra vibes
+    "https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5",
+    "https://images.unsplash.com/photo-1510511459019-5dda7724fd87",
+    "https://images.unsplash.com/photo-1504639725590-34d0984388bd",
+    "https://images.unsplash.com/photo-1607799279861-4dd421887fb3",
+    "https://images.unsplash.com/photo-1585079542156-2755d9c8a094",
+
+    //"https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1920&auto=format&fit=crop",
+    //"https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1920&auto=format&fit=crop",
+    //"https://images.unsplash.com/photo-1676299081847-824916de030a?q=80&w=1920&auto=format&fit=crop",
+    //"https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=1920&auto=format&fit=crop",
+    //"https://images.unsplash.com/photo-1655720828018-edd0f50a1d9a?q=80&w=1920&auto=format&fit=crop",
+    //"https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1920&auto=format&fit=crop",
+    //"https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1920&auto=format&fit=crop",
+    //"https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&w=1920&auto=format&fit=crop",
+    //"https://images.unsplash.com/photo-1526378722484-bd91ca387e72?q=80&w=1920&auto=format&fit=crop",
+    //"https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=1920&auto=format&fit=crop"
+  ];
+
+  // Expose globally for background script
+  window.BACKGROUND_IMAGES = images;
 </script>
+<script src="/js/background.js"></script>
