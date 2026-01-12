@@ -11,7 +11,8 @@ main() {
 
   DART_SASS_VERSION=1.97.2
   GO_VERSION=1.25.5
-  HUGO_VERSION=0.154.4
+  #HUGO_VERSION=0.154.4 latest version
+  HUGO_VERSION=0.123.7
   NODE_VERSION=24.12.0
 
   export TZ=Europe/Oslo
