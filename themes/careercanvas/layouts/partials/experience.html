@@ -16,11 +16,11 @@
         {{ $resumeLabel := .Params.resume_label }}
         {{ $buttonClass := "flex items-center justify-center bg-gradient-primary text-white text-sm sm:text-lg px-4 sm:px-6 py-4 rounded-lg font-semibold shadow-lg w-auto sm:w-auto" }}
         
-        <a href="{{ .Params.resume_url_en }}" target="_blank" rel="noopener noreferrer" class="{{ $buttonClass }} button-hover">
+        <a href="{{ .Site.Params.resume_url_en }}" target="_blank" rel="noopener noreferrer" class="{{ $buttonClass }} button-hover">
           <i class="fas fa-file-pdf text-2xl mr-3"></i>
           {{ $resumeLabel }} (EN)
         </a>
-        <a href="{{ .Params.resume_url_fr }}" target="_blank" rel="noopener noreferrer" class="{{ $buttonClass }} button-hover">
+        <a href="{{ .Site.Params.resume_url_id }}" target="_blank" rel="noopener noreferrer" class="{{ $buttonClass }} button-hover">
           <i class="fas fa-file-pdf text-2xl mr-3"></i>
           {{ $resumeLabel }} (ID)
         </a>

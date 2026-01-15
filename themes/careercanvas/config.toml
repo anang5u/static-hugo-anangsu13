@@ -37,8 +37,8 @@ defaultContentLanguageInSubdir = true
   hero_description = "Rooted in Instrumentation Physics, I build robust and scalable backend systems with Golang — blending technical precision, data efficiency, and innovation in modern cloud architecture."
 
   # Resume/CV
-  resume_url_en = "/files/your-resume-en.pdf"  # Path to English resume
-  resume_url_fr = "/files/your-resume-fr.pdf"  # Path to French resume (optional)
+  resume_url_en = "/files/ANANG_SURYANA_EN.pdf"  # Path to English resume
+  resume_url_id = "/files/ANANG_SURYANA_ID.pdf"  # Path to French resume (optional)
   resume_label = "Full Resume"
 
   # Social Icons
